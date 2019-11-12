@@ -1,11 +1,9 @@
 .header-color {
-  background: #833ab4;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #167a61, #4eeff5, #075f49);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #167a61, #4eeff5, #075f49); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background: #833ab4;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #f7fa43, #e66532, #81e027);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #f7fa43, #e66532, #81e027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
@@ -28,6 +26,25 @@
   background: #27221F;
   color: white;
   padding: 2em;
+}
+
+/* about me page*/
+.about{
+  background:rgba(0,0,0, 0.87);
+  margin:0;
+  height:100%;
+  width: 100%;;
+}
+
+.about-me{
+  color:purple;
+  text-align: center;
+}
+
+.about-me-paragraph{
+  color:silver;
+  padding: 0px 100px 0px 100px;
+  font-size: 20px;
 }
 
 /* contact page css */
